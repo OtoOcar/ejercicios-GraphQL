@@ -1,7 +1,7 @@
 {
   "name": "graphql",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000e\u0000j\u0000e\u0000r\u0000c\u0000i\u0000c\u0000i\u0000o\u0000s\u0000-\u0000G\u0000r\u0000a\u0000p\u0000h\u0000Q\u0000L\u0000\r\u0000 \u0000",
+  "description": "Ejercicios de GraphQL",
   "homepage": "https://github.com/OtoOcar/ejercicios-GraphQL#readme",
   "bugs": {
     "url": "https://github.com/OtoOcar/ejercicios-GraphQL/issues"
@@ -15,15 +15,24 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.ts",
+    "test": "nodemon src/index.ts --exec ts-node src/index.ts -e ts,graphql"
   },
   "dependencies": {
+    "apollo-server-core": "^3.13.0",
     "apollo-server-express": "^3.13.0",
     "cors": "^2.8.5",
-    "express": "^5.1.0",
+    "express": "^4.21.2",
     "graphql": "^16.12.0",
     "graphql-import-node": "^0.0.5",
-    "graphql-tools": "^9.0.24",
+    "graphql-tools": "^8.3.20",
     "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/node": "^24.10.1",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
