@@ -1,0 +1,29 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000e\u0000j\u0000e\u0000r\u0000c\u0000i\u0000c\u0000i\u0000o\u0000s\u0000-\u0000G\u0000r\u0000a\u0000p\u0000h\u0000Q\u0000L\u0000\r\u0000 \u0000",
+  "homepage": "https://github.com/OtoOcar/ejercicios-GraphQL#readme",
+  "bugs": {
+    "url": "https://github.com/OtoOcar/ejercicios-GraphQL/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OtoOcar/ejercicios-GraphQL.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "graphql": "^16.12.0",
+    "graphql-import-node": "^0.0.5",
+    "graphql-tools": "^9.0.24",
+    "ncp": "^2.0.0"
+  }
+}
